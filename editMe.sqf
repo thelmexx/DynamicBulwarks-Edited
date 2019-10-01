@@ -118,13 +118,21 @@ LOOT_WHITELIST_ITEM = [
     "bipod_01_F_blk",
     "B_UavTerminal"
 ];
-LOOT_WHITELIST_EXPLOSIVE = [];
+
+LOOT_WHITELIST_EXPLOSIVE = [
+];
+
 LOOT_WHITELIST_STORAGE = [
     "B_AssaultPack_rgr",
     "B_FieldPack_green_F",
     "B_Kitbag_rgr",
     "B_Carryall_green_F",
-    "B_TacticalPack_oli"
+    "B_TacticalPack_oli",
+    "B_HMG_01_support_F",
+    "B_HMG_01_weapon_F",
+    "B_HMG_01_A_weapon_F",
+    "B_HMG_01_support_high_F",
+    "B_HMG_01_high_weapon_F"
 ];
 
 /* Loot Spawn */
