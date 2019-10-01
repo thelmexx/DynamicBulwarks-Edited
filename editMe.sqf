@@ -82,12 +82,24 @@ LOOT_WHITELIST_WEAPON = [
     "srifle_GM6_F",
     "srifle_LRR_F",
     "LMG_Mk200_F",
-    "LMG_Zafir_F"
+    "LMG_Zafir_F",
     "launch_MRAWS_green_F"
-    
 ];
 
-LOOT_WHITELIST_APPAREL = [];
+LOOT_WHITELIST_APPAREL = [
+    "U_B_CTRG_2",
+    "U_B_GhillieSuit",
+    "U_B_FullGhillie_sard",
+    "V_Chestrig_blk",           // No armor
+    "V_TacVest_blk",            // Armor L1
+    "V_PlateCarrier1_blk",      // Armor L3
+    "V_PlateCarrier2_blk",      // Armor L4
+    "V_PlateCarrierGL_blk",     // Armor L4 + Explosive Resistance
+    "V_PlateCarrierSpec_blk",   // Armor L5
+    "H_HelmetB_light_black",
+    "H_HelmetB_black",
+    "H_HelmetSpecB_blk"
+];
 LOOT_WHITELIST_ITEM = [];
 LOOT_WHITELIST_EXPLOSIVE = [];
 LOOT_WHITELIST_STORAGE = [];
