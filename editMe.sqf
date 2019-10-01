@@ -64,7 +64,11 @@ LOOT_WHITELIST_WEAPON = [
     "arifle_MX_Black_F",
     "arifle_MX_GL_Black_F",
     "arifle_MX_SW_Black_F",
-    "arifle_MXM_Black_F"
+    "arifle_MXM_Black_F",
+    "srifle_DMR_01_F",
+    "srifle_EBR_F",
+    "srifle_GM6_F",
+    "srifle_LRR_F"
 ];
 
 LOOT_WHITELIST_APPAREL = [];
