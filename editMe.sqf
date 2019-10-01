@@ -54,12 +54,17 @@ LOOT_BLACKLIST = [
 /* 0 = Off */
 /* 1 = Only Whitelist Items will spawn as loot */
 /* 2 = Whitelist items get added to existing loot (increases the chance of loot spawning */
-LOOT_WHITELIST_MODE = 0;
+LOOT_WHITELIST_MODE = 1;
 
 /* Loot Whitelists */
 /* Fill with classname arrays: ["example_item_1", "example_item_2"] */
 /* To use Whitelisting there MUST be at least one applicaple item in each LOOT_WHITELIST array*/
-LOOT_WHITELIST_WEAPON = [];
+LOOT_WHITELIST_WEAPON = [
+    "arifle_MXC_Black_F"
+    "arifle_MX_Black_F"
+    "arifle_MX_GL_Black_F"
+    "arifle_MX_SW_Black_F"
+    "arifle_MXM_Black_F"];
 LOOT_WHITELIST_APPAREL = [];
 LOOT_WHITELIST_ITEM = [];
 LOOT_WHITELIST_EXPLOSIVE = [];
