@@ -66,6 +66,7 @@ LOOT_WHITELIST_WEAPON = [
     "hgun_PDW2000_F",
     "SMG_01_F",
     "SMG_02_F",
+    "SMG_03_TR_black",
     "arifle_TRG21_F",
     "arifle_TRG20_F",
     "arifle_MXC_Black_F",
@@ -82,6 +83,8 @@ LOOT_WHITELIST_WEAPON = [
     "srifle_LRR_F",
     "LMG_Mk200_F",
     "LMG_Zafir_F"
+    "launch_MRAWS_green_F"
+    
 ];
 
 LOOT_WHITELIST_APPAREL = [];
