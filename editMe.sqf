@@ -60,11 +60,13 @@ LOOT_WHITELIST_MODE = 1;
 /* Fill with classname arrays: ["example_item_1", "example_item_2"] */
 /* To use Whitelisting there MUST be at least one applicaple item in each LOOT_WHITELIST array*/
 LOOT_WHITELIST_WEAPON = [
-    "arifle_MXC_Black_F"
-    "arifle_MX_Black_F"
-    "arifle_MX_GL_Black_F"
-    "arifle_MX_SW_Black_F"
-    "arifle_MXM_Black_F"];
+    "arifle_MXC_Black_F",
+    "arifle_MX_Black_F",
+    "arifle_MX_GL_Black_F",
+    "arifle_MX_SW_Black_F",
+    "arifle_MXM_Black_F"
+];
+
 LOOT_WHITELIST_APPAREL = [];
 LOOT_WHITELIST_ITEM = [];
 LOOT_WHITELIST_EXPLOSIVE = [];
