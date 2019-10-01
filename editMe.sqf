@@ -100,9 +100,32 @@ LOOT_WHITELIST_APPAREL = [
     "H_HelmetB_black",
     "H_HelmetSpecB_blk"
 ];
-LOOT_WHITELIST_ITEM = [];
+
+LOOT_WHITELIST_ITEM = [
+    "NVGoggles_OPFOR",
+    "Laserdesignator",
+    "FirstAidKit",
+    "muzzle_snds_H",
+    "muzzle_snds_M",
+    "muzzle_snds_B",
+    "muzzle_snds_H_MG",
+    "muzzle_snds_acp",
+    "optic_Arco",
+    "optic_Hamr",
+    "optic_Holosight",
+    "optic_DMS",
+    "optic_Nightstalker",
+    "bipod_01_F_blk",
+    "B_UavTerminal"
+];
 LOOT_WHITELIST_EXPLOSIVE = [];
-LOOT_WHITELIST_STORAGE = [];
+LOOT_WHITELIST_STORAGE = [
+    "B_AssaultPack_rgr",
+    "B_FieldPack_green_F",
+    "B_Kitbag_rgr",
+    "B_Carryall_green_F",
+    "B_TacticalPack_oli"
+];
 
 /* Loot Spawn */
 LOOT_WEAPON_POOL    = List_AllWeapons - LOOT_BLACKLIST;    // Classnames of Loot items as an array
