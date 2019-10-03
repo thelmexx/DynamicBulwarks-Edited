@@ -104,7 +104,6 @@ LOOT_WHITELIST_APPAREL = [
 LOOT_WHITELIST_ITEM = [
     "NVGoggles_OPFOR",
     "Laserdesignator",
-    "FirstAidKit",
     "muzzle_snds_H",
     "muzzle_snds_M",
     "muzzle_snds_B",
@@ -120,14 +119,7 @@ LOOT_WHITELIST_ITEM = [
 ];
 
 LOOT_WHITELIST_EXPLOSIVE = [
-    "ATMine_Range_Ammo",
-    "APERSMine_Range_Ammo",
-    "APERSBoundingMine_Range_Ammo",
-    "SLAMDirectionalMine_Wire_Ammo",
-    "APERSTripMine_Wire_Ammo",
-    "ClaymoreDirectionalMine_Remote_Ammo",
-    "SatchelCharge_Remote_Ammo",
-    "DemoCharge_Remote_Ammo"
+    "FirstAidKit"
 ];
 
 LOOT_WHITELIST_STORAGE = [
