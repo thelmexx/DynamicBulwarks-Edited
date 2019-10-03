@@ -140,7 +140,8 @@ LOOT_WHITELIST_STORAGE = [
     "B_HMG_01_weapon_F",
     "B_HMG_01_A_weapon_F",
     "B_HMG_01_support_high_F",
-    "B_HMG_01_high_weapon_F"
+    "B_HMG_01_high_weapon_F",
+    "B_UAV_01_backpack_F"
 ];
 
 /* Loot Spawn */
