@@ -9,6 +9,8 @@
 /* Attacker Waves */
 
 // List_Bandits, List_ParaBandits, List_OPFOR, List_INDEP, List_NATO, List_Viper
+// CUSTOM: List_FIA, List_AAF, List_LDF
+
 HOSTILE_LEVEL_1 = List_FIA;  // Wave 0 >
 HOSTILE_LEVEL_2 = List_AAF;    // Wave 5 >
 HOSTILE_LEVEL_3 = List_LDF;    // Wave 10 >
