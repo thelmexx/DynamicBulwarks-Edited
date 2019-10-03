@@ -6,6 +6,54 @@
 *  Domain: Server
 **/
 
+
+_fia = [];
+_groupConfig = configfile >> "CfgGroups" >> "Indep" >> "IND_G_F" >> "Infantry" >> "I_G_InfTeam_Light";
+_count = count (_groupConfig);
+for "_x" from 0 to (_count-1) do {
+    _item=((_groupConfig) select _x);
+    if (isClass _item) then {
+		_fia pushback getText (_item >> "vehicle");
+    };
+};
+List_FIA = _fia;
+
+_aaf = [];
+_groupConfig = configfile >> "CfgGroups" >> "Indep" >> "IND_F" >> "Infantry" >> "HAF_InfSquad_Weap";
+_count = count (_groupConfig);
+for "_x" from 0 to (_count-1) do {
+    _item=((_groupConfig) select _x);
+    if (isClass _item) then {
+		_aaf pushback getText (_item >> "vehicle");
+    };
+};
+List_AAF = _aaf;
+
+_ldf = [];
+_groupConfig = configfile >> "CfgGroups" >> "Indep" >> "IND_E_F" >> "Infantry" >> "I_E_InfSquad";
+_count = count (_groupConfig);
+for "_x" from 0 to (_count-1) do {
+    _item=((_groupConfig) select _x);
+    if (isClass _item) then {
+		_ldf pushback getText (_item >> "vehicle");
+    };
+};
+List_LDF = _ldf;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 _zombieSpider = [];
 _zombiePlayer = [];
 _zombieCrawler = [];
