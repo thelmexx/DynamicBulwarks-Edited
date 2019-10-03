@@ -120,6 +120,14 @@ LOOT_WHITELIST_ITEM = [
 ];
 
 LOOT_WHITELIST_EXPLOSIVE = [
+    "ATMine_Range_Ammo",
+    "APERSMine_Range_Ammo",
+    "APERSBoundingMine_Range_Ammo",
+    "SLAMDirectionalMine_Wire_Ammo",
+    "APERSTripMine_Wire_Ammo",
+    "ClaymoreDirectionalMine_Remote_Ammo",
+    "SatchelCharge_Remote_Ammo",
+    "DemoCharge_Remote_Ammo"
 ];
 
 LOOT_WHITELIST_STORAGE = [
