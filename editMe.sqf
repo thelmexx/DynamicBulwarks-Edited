@@ -9,9 +9,9 @@
 /* Attacker Waves */
 
 // List_Bandits, List_ParaBandits, List_OPFOR, List_INDEP, List_NATO, List_Viper
-HOSTILE_LEVEL_1 = List_Bandits;  // Wave 0 >
-HOSTILE_LEVEL_2 = List_OPFOR;    // Wave 5 >
-HOSTILE_LEVEL_3 = List_Viper;    // Wave 10 >
+HOSTILE_LEVEL_1 = List_FIA;  // Wave 0 >
+HOSTILE_LEVEL_2 = List_AAF;    // Wave 5 >
+HOSTILE_LEVEL_3 = List_LDF;    // Wave 10 >
 HOSTILE_ARMED_CARS = List_Armour;//expects vehicles
 HOSTILE_ARMOUR = List_ArmedCars; //expects vehicles
 
